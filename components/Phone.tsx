@@ -13,7 +13,7 @@ const Header: FunctionalComponent<Phone> = (props) => {
         <div >
             <li>
                 {phone.format_national}
-                <a href="">{phone.country}</a>
+                <a href={`/country/${phone.country}`}>{phone.country}</a>
             </li>
         </div>
     );
