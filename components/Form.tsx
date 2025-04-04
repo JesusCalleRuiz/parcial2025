@@ -4,7 +4,7 @@ const Form: FunctionalComponent = () => {
     return(
         <div>
             <form action="/">
-                <input type="text" name="telefono" placeholder="introduce un telefono"/>
+                <input type="text" name="number" placeholder="introduce un telefono"/>
                 <button type="submit">Buscar</button>
             </form>
         </div>
